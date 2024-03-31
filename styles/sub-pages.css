@@ -118,117 +118,181 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.first {
+.container0 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 2/5;
     grid-row: 9/11;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.second {
+.container1 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 6/9;
     grid-row: 9/11;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.third {
+.container2 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 10/13;
     grid-row: 9/11;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.fourth {
+.container3 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 14/17;
     grid-row: 9/11;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.fifth {
+.container4 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 2/5;
     grid-row: 13/15;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.sixth {
+.container5 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 6/9;
     grid-row: 13/15;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.seventh {
+.container6 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 10/13;
     grid-row: 13/15;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.eighth{
+.container7 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 14/17;
     grid-row: 13/15;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.ninth {
+.container8 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 2/5;
     grid-row: 17/19;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.tenth {
+.container9 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 6/9;
     grid-row: 17/19;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.eleventh {
+.container10 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 10/13;
     grid-row: 17/19;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.twelvth {
+.container11 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 14/17;
     grid-row: 17/19;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.thirteenth {
+.container12 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 2/5;
     grid-row: 21/23;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.fourteenth {
+.container13 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 6/9;
     grid-row: 21/23;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.fifteenth {
+.container14 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 10/13;
     grid-row: 21/23;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.sixteenth {
+.container15 {
+    position: relative;
+    width: 300%;
     margin: 100px 0;
     width: 100%;
     grid-column: 14/17;
     grid-row: 21/23;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d9c2a3;
+    pointer-events: none;
+}
+.image:hover + .overlay {
+    opacity: 1;
+}
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
